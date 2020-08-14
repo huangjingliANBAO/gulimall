@@ -3,17 +3,20 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.hd</groupId>
-    <artifactId>gulimall-coupon</artifactId>
+    <artifactId>gulimall</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>gulimall-coupon</name>
+    <name>gulimall</name>
     <description>聚合服务</description>
     <packaging>pom</packaging>
     <modules>
         <module>gulimall-ware</module>
         <module>gulimall-product</module>
         <module>gulimall-order</module>
+<module>gulimall-coupons</module>
         <module>gulimall-member</module>
-        <module>gulimall-coupon</module>
+        <module>renren-fast</module>
+        <module>renren-generator</module>
+        <module>gulimall-common</module>
     </modules>
 
 
